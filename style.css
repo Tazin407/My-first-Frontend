@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-image: linear-gradient(60deg, #080642, #3a0651);
+    border:1px;
+    padding-left: 40px;
+    
+}
+
+.uppernav{
+    
+    padding: 10px;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
+    
+}
+
+.topIcon{
+
+    height: 5vh;
+
+}
+.upperrightnav{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 53px;
+    margin-top: -42px;
+    margin-left: 72px;
+    gap:50px;
+}
+
+.navlist{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 9px;
+    gap: 30px;
+}
+
+button{
+        background-color: transparent;
+        height: 40px;
+        width: 80px;
+        border-radius: 10%;
+        padding: 3px;
+
+}
+.about{
+    background-color: #ef6d58;
+    border: none;
+    border-radius: 5px;
+}
+
+.lowernav{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bottomleft{
+    display:flex;
+    flex-direction: column;
+    column-gap: 40px;
+}
+.content{
+    margin-bottom: 50px;
+}
+.bottomright{
+    padding: 20px;
+    border: 1px ;
+}
+.downIcons{
+    padding-left: 32%;
+}
+
+/* Nav ends here */
+
+.whitepart{
+    background-color: white;
+    align-items: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.expertise{
+    margin-bottom: 20px;
+}
+
+.iconlist{
+    /* border: 1px solid red; */
+    align-items: center;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+.section2{
+
+    background-image: linear-gradient(60deg, #080642, #3a0651);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 20px;
+
+}
+.image{
+    height: 20%;
+    width: 20%;
+}
+.experience{
+    margin-left: 350px;
+
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 40px;
+}
+
+.agency{
+    padding-bottom: 50px;
+}
+
+.topfooter{
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+}
+
+.footermenu{
+    list-style-type: none;
+    /* border: 1px solid black; */
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.lowest{
+    padding: 30px;
+    display: flex;
+    gap: 900px;
+}
+.copyright{
+    /* border: 1px solid red; */
+    text-align: center;
+    width: 1090px;
+    height: 100px;
+}
+.terms{
+    width: 1000px;
+    height: 100px;
+    text-align: right;
+}
